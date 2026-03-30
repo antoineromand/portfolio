@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap');
+
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-on-primary: #005762;
+  --color-on-secondary: #400040;
+  --color-tertiary-fixed: #80b2ff;
+  --color-primary-dim: #00d4ec;
+  --color-surface-variant: #24252d;
+  --color-surface-container-high: #1e1f26;
+  --color-on-tertiary-fixed-variant: #003971;
+  --color-inverse-primary: #006976;
+  --color-tertiary-dim: #5c9ffc;
+  --color-primary-fixed: #00e3fd;
+  --color-surface-container-highest: #24252d;
+  --color-surface: #0d0e13;
+  --color-on-tertiary: #002a55;
+  --color-tertiary-container: #599cf9;
+  --color-on-tertiary-fixed: #001835;
+  --color-surface-container-low: #121319;
+  --color-primary-container: #00e3fd;
+  --color-inverse-on-surface: #54545b;
+  --color-secondary: #ff51fa;
+  --color-on-error: #490006;
+  --color-tertiary-fixed-dim: #65a4ff;
+  --color-secondary-fixed: #ffbdf3;
+  --color-on-surface-variant: #abaab1;
+  --color-secondary-container: #a900a9;
+  --color-on-surface: #f7f5fd;
+  --color-secondary-fixed-dim: #ffa6f3;
+  --color-surface-container: #181920;
+  --color-on-tertiary-container: #001d3f;
+  --color-secondary-dim: #ff51fa;
+  --color-on-error-container: #ffa8a3;
+  --color-surface-bright: #2a2c34;
+  --color-outline-variant: #47474e;
+  --color-on-primary-fixed-variant: #005762;
+  --color-on-primary-fixed: #003840;
+  --color-surface-container-lowest: #000000;
+  --color-on-primary-container: #004d57;
+  --color-outline: #75757b;
+  --color-inverse-surface: #faf8ff;
+  --color-error-container: #9f0519;
+  --color-on-background: #f7f5fd;
+  --color-surface-tint: #81ecff;
+  --color-primary: #81ecff;
+  --color-error-dim: #d7383b;
+  --color-on-secondary-container: #fff5f9;
+  --color-primary-fixed-dim: #00d4ec;
+  --color-background: #0d0e13;
+  --color-surface-dim: #0d0e13;
+  --color-on-secondary-fixed-variant: #920091;
+  --color-error: #ff716c;
+  --color-tertiary: #70aaff;
+
+  --font-headline: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-label: "Space Grotesk", sans-serif;
+
+  --radius: 0.25rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+  --radius-full: 9999px;
+}
