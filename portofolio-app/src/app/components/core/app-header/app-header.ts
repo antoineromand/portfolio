@@ -7,10 +7,9 @@ import {Component} from '@angular/core';
   styleUrl: './app-header.scss',
 })
 export class AppHeader {
-  public menu: { name: string, path: string, symbol: string }[] = [
-    {name: "home", path: "/home", symbol: "grid_view"},
-    {name: "projects", path: "/projects", symbol: "database"},
-    {name: "blog", path: "/blog", symbol: "psychology"},
-    {name: "contact", path: "/contact", symbol: "sensors"}
-  ]
+  isMenuOpen = false;
+
+  closeMenu(): void {
+    this.isMenuOpen = false;
+  }
 }
