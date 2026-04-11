@@ -1,5 +1,4 @@
-import {Component, inject, OnInit} from '@angular/core';
-import {ActivatedRoute} from '@angular/router';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'home-page',
@@ -7,13 +6,6 @@ import {ActivatedRoute} from '@angular/router';
   templateUrl: './home.html',
   styleUrl: './home.scss',
 })
-export class HomePage implements OnInit {
-  actualPosition?: number;
-  maxPosition?: number;
-  route = inject(ActivatedRoute);
+export class HomePage {
 
-  ngOnInit(): void {
-    this.actualPosition = this.route.snapshot.data['actualPosition'];
-    this.maxPosition = this.route.snapshot.data['maxPosition'];
-  }
 }
