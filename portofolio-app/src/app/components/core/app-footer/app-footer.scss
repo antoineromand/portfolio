@@ -1,0 +1,34 @@
+@use 'variables' as *;
+
+footer {
+  font-family: "JetBrains Mono", monospace;
+  display: flex;
+  flex-direction: row;
+  padding: 2rem 3rem;
+  align-items: center;
+  justify-content: space-between;
+  opacity: 0.5;
+  font-size: 12px;
+
+  .footer-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+
+    span {
+      cursor: pointer;
+
+      &:hover,
+      &:focus {
+        opacity: 1;
+        color: $red-color;
+      }
+    }
+  }
+
+}

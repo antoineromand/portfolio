@@ -1,3 +1,5 @@
+@use 'variables' as *;
+
 header {
   padding: 2rem 3rem;
   position: relative;
@@ -32,7 +34,7 @@ header {
           transition: opacity 0.5s;
 
           &:hover {
-            color: #ba002c;
+            color: $red-color;
             opacity: 1;
           }
         }
@@ -109,7 +111,7 @@ header {
 
       &:hover,
       &:focus {
-        color: #ba002c;
+        color: $red-color;
         opacity: 1;
         transform: translateX(4px);
       }
