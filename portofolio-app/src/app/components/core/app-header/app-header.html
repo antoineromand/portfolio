@@ -6,10 +6,33 @@
 
     <div class="hidden md:flex items-center gap-12 font-serif tracking-widest uppercase text-sm">
       <ul>
-        <li><a href="#">Accueil</a></li>
-        <li><a href="#">Projets</a></li>
-        <li><a href="#">Présentation</a></li>
-        <li><a href="#">Contact</a></li>
+        <li>
+          <a
+            [routerLink]="['/']"
+            routerLinkActive="active-link"
+            [routerLinkActiveOptions]="{exact:true}"
+          >
+            Accueil
+          </a>
+        </li>
+        <li><a
+          [routerLink]="['/projects']"
+          routerLinkActive="active-link"
+          [routerLinkActiveOptions]="{exact:true}"
+        >
+          Projets</a></li>
+        <li><a
+          [routerLink]="['/about']"
+          routerLinkActive="active-link"
+          [routerLinkActiveOptions]="{exact:true}"
+        >
+          Présentation</a></li>
+        <li><a
+          [routerLink]="['/contact']"
+          routerLinkActive="active-link"
+          [routerLinkActiveOptions]="{exact:true}"
+        >
+          Contact</a></li>
       </ul>
     </div>
 
@@ -38,10 +61,14 @@
 
   <div class="mobile-menu md:hidden" [class.open]="isMenuOpen">
     <ul>
-      <li><a href="#" (click)="closeMenu()">Accueil</a></li>
-      <li><a href="#" (click)="closeMenu()">Projets</a></li>
-      <li><a href="#" (click)="closeMenu()">Présentation</a></li>
-      <li><a href="#" (click)="closeMenu()">Contact</a></li>
+      <li><a [routerLink]="['/']" (click)="closeMenu()" routerLinkActive="active-link"
+             [routerLinkActiveOptions]="{exact:true}">Accueil</a></li>
+      <li><a [routerLink]="['/projects']" (click)="closeMenu()" routerLinkActive="active-link"
+             [routerLinkActiveOptions]="{exact:true}">Projets</a></li>
+      <li><a [routerLink]="['/about']" (click)="closeMenu()" routerLinkActive="active-link"
+             [routerLinkActiveOptions]="{exact:true}">Présentation</a></li>
+      <li><a [routerLink]="['/contact']" (click)="closeMenu()" routerLinkActive="active-link"
+             [routerLinkActiveOptions]="{exact:true}">Contact</a></li>
     </ul>
   </div>
 </header>

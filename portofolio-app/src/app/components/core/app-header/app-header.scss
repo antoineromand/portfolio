@@ -14,7 +14,7 @@ header {
       font-family: serif;
       font-size: 1.5rem;
       letter-spacing: -0.05em;
-      color: #1a1c1a;
+      color: $red-color;
     }
 
     ul {
@@ -124,4 +124,9 @@ header {
       pointer-events: auto;
     }
   }
+}
+
+.active-link {
+  color: $red-color !important;
+  opacity: 1 !important;
 }
