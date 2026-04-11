@@ -1,0 +1,28 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "category": "backend",
+      "title": "Neo-Ledger",
+      "description": "NeoLedger est un système de gestion de transactions financières distribué.\n Ce projet a pour but de mettre en pratique des concepts métiers et de simuler une banque.",
+      "tags": [
+        "Java",
+        "Spring",
+        "Kafka"
+      ],
+      "img": "https://lh3.googleusercontent.com/aida-public/AB6AXuCQ_MQlv6kK2EWiD48KlM33C4I0Ftt9Ix88s8Mxsl3rCkQYKZST0JcQDHOxeRF6uUQnGYKd9ui5F9rhOiFeBlJsJXvjv_SYCAwKenlhQs-eKnw03_Z1nBL1zfiA85mtJ8RrsrsNpXZoRvWFhtRBS25Jc9TcxMiDo1hqqAlu_i4akSGRQnSHz8hI5AISrDVQ11v_sLvGw7vZPqAuYXkJAgG1g7-m1yX8UeFzuVQ0VIkH4HGRADxYZLOFn0BdsgvodurDz3TwMYU0MfA"
+    },
+    {
+      "id": 2,
+      "category": "backend",
+      "title": "Neo-Ledger",
+      "description": "NeoLedger est un système de gestion de transactions financières distribué.\n Ce projet a pour but de mettre en pratique des concepts métiers et de simuler une banque.",
+      "tags": [
+        "Java",
+        "Spring",
+        "Kafka"
+      ],
+      "img": "https://lh3.googleusercontent.com/aida-public/AB6AXuAq9i4LoCvWZSX1TdIIau3cD2u2HKoje1vKxFg2sTjXu5rQ-WE_l3cMf9nPDFBHhEsFMlYL75bVxsuSJvQadDM2ABKtLrRSGlQlHEYhepF_1J5wulhfCCiX2HaehuElwWSAgFjjAG9skdbcnJD-a5VK--TrVpg7a_tE6fVbUDU7VDCzr7XQKeboCM7GzLzSx0aRhC48NMcppCoKLjCLGUPezr_opLz5Qqg3eCaSuSsOhalm_FLtU2kuvxaAajv8Ilg5R4nIOu7DRmg"
+    }
+  ]
+}

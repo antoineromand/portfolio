@@ -1,4 +1,5 @@
-import {Component} from '@angular/core';
+import {Component, inject, OnInit} from '@angular/core';
+import {Project, ProjectService} from '../../services/project-service';
 
 @Component({
   selector: 'projects-page',
@@ -6,6 +7,11 @@ import {Component} from '@angular/core';
   templateUrl: './projects.html',
   styleUrl: './projects.scss',
 })
-export class ProjectsPage {
+export class ProjectsPage implements OnInit {
+  service = inject(ProjectService);
+  projects: Project[] = [];
 
+  ngOnInit() {
+    this.projects = this.service.getProjects();
+  }
 }
