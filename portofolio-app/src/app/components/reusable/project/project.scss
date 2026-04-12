@@ -2,10 +2,9 @@
 
 .body-container {
   margin-top: 3rem;
-  display: flex;
-  flex-direction: row;
   gap: 3.5rem;
   justify-content: center;
+  height: 320px;
 
   .project-id {
     font-family: "JetBrains Mono", monospace !important;
@@ -67,6 +66,7 @@
 @media (max-width: 711px) {
   .body-container {
     flex-direction: column !important;
+    height: 100% !important;
   }
 
   .project-metadata {

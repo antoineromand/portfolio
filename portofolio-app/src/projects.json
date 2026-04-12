@@ -18,7 +18,7 @@
       "id": 2,
       "category": "backend",
       "title": "Click And Eat Api",
-      "description": "Click and Eat Api est un projet venant d'un projet entrepreneurial mis en pause.\n Développé avec Java et sous une architecture monolithique modulaire pour faciliter une transition vers les microservices, ce projet s'inscrit dans une démarche de ma part de comprendre et mettre en place la dite architecture.",
+      "description": "Click and Eat est un api venant d'un projet entrepreneurial mis en pause.\n Développé avec Java et sous une architecture monolithique modulaire pour faciliter une transition vers les microservices, ce projet s'inscrit dans une démarche de ma part de comprendre et mettre en place la dite architecture.",
       "tags": [
         "Java",
         "Spring",
@@ -26,9 +26,24 @@
         "Monolithe modulaire"
       ],
       "img": "https://lh3.googleusercontent.com/aida-public/AB6AXuAq9i4LoCvWZSX1TdIIau3cD2u2HKoje1vKxFg2sTjXu5rQ-WE_l3cMf9nPDFBHhEsFMlYL75bVxsuSJvQadDM2ABKtLrRSGlQlHEYhepF_1J5wulhfCCiX2HaehuElwWSAgFjjAG9skdbcnJD-a5VK--TrVpg7a_tE6fVbUDU7VDCzr7XQKeboCM7GzLzSx0aRhC48NMcppCoKLjCLGUPezr_opLz5Qqg3eCaSuSsOhalm_FLtU2kuvxaAajv8Ilg5R4nIOu7DRmg",
+      "year": 2025,
+      "status": "aborted"
+    },
+    {
+      "id": 3,
+      "category": "full-stack",
+      "title": "PictsManager",
+      "description": "Plateforme de partage d'images dans le style d'Instagram.\n Projet Epitech datant de 2024, modernisé en 2026 (montée de version Java, implémentation DDD, S3, CDN..). Une interface web avec angular a été développé en 2026 pour remplacer l'ancienne application obsolète développé sous react native.",
+      "tags": [
+        "Java",
+        "Spring",
+        "Angular",
+        "CDN",
+        "DDD"
+      ],
+      "img": "https://lh3.googleusercontent.com/aida-public/AB6AXuAq9i4LoCvWZSX1TdIIau3cD2u2HKoje1vKxFg2sTjXu5rQ-WE_l3cMf9nPDFBHhEsFMlYL75bVxsuSJvQadDM2ABKtLrRSGlQlHEYhepF_1J5wulhfCCiX2HaehuElwWSAgFjjAG9skdbcnJD-a5VK--TrVpg7a_tE6fVbUDU7VDCzr7XQKeboCM7GzLzSx0aRhC48NMcppCoKLjCLGUPezr_opLz5Qqg3eCaSuSsOhalm_FLtU2kuvxaAajv8Ilg5R4nIOu7DRmg",
       "year": 2026,
       "status": "completed"
-
     }
   ]
 }

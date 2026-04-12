@@ -1,5 +1,5 @@
-<div class="body-container">
-  <div class="project-id">{{ project()?.id }}</div>
+<div class="body-container flex" [ngClass]="isEven(project()?.id) ? 'flex-row-reverse' : 'flex-row'">
+  <div class="project-id">{{ project()?.id | idFormatter }}</div>
   <div class="relative overflow-hidden picture">
     <img
       [src]="project()?.img ?? defaultImgSrc"

@@ -1,11 +1,13 @@
 import {Component, input} from '@angular/core';
 import {Project as ProjectType} from '../../../services/project-service';
 import {NgClass} from '@angular/common';
+import {IdFormatterPipe} from '../../../pipes/id-pipe-formatter-pipe';
 
 @Component({
   selector: 'app-project',
   imports: [
-    NgClass
+    NgClass,
+    IdFormatterPipe
   ],
   templateUrl: './project.html',
   styleUrl: './project.scss',
