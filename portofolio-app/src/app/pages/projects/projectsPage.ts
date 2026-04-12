@@ -1,9 +1,10 @@
 import {Component, inject, OnInit} from '@angular/core';
 import {Project, ProjectService} from '../../services/project-service';
+import {ProjectComponent} from '../../components/reusable/project/project';
 
 @Component({
   selector: 'projects-page',
-  imports: [],
+  imports: [ProjectComponent],
   templateUrl: './projects.html',
   styleUrl: './projects.scss',
 })

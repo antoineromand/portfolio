@@ -8,6 +8,8 @@ export type Project = {
   category: string;
   img: string;
   tags: string[];
+  year: number;
+  status: string;
 }
 
 @Injectable({

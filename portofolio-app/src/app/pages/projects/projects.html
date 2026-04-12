@@ -8,54 +8,33 @@
       github.</p>
   </div>
 
-  <div class="body-container">
-    <div class="project-id">01</div>
-    <div class="relative overflow-hidden picture">
-      <img
-        src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQ_MQlv6kK2EWiD48KlM33C4I0Ftt9Ix88s8Mxsl3rCkQYKZST0JcQDHOxeRF6uUQnGYKd9ui5F9rhOiFeBlJsJXvjv_SYCAwKenlhQs-eKnw03_Z1nBL1zfiA85mtJ8RrsrsNpXZoRvWFhtRBS25Jc9TcxMiDo1hqqAlu_i4akSGRQnSHz8hI5AISrDVQ11v_sLvGw7vZPqAuYXkJAgG1g7-m1yX8UeFzuVQ0VIkH4HGRADxYZLOFn0BdsgvodurDz3TwMYU0MfA"
-        alt="t"
-        class="w-142 h-80 object-cover "/>
-      <div class="absolute -bottom-8 -right-8 bg-[#faf9f6] text-(--$red-color) p-8 uppercase w-50">
-        <span class="text-sm">status : en développement</span>
-        <span class="text-sm">année : 2026</span>
-      </div>
-    </div>
-    <div class="project-metadata">
-      <span class="project-category">backend</span>
-      <span class="project-title">Neo-Ledger</span>
-      <p class="project-description">NeoLedger est un système de gestion de transactions financières distribué.
-        Ce projet a pour but de mettre en pratique des concepts métiers et de simuler une banque.</p>
-      <div class="project-tags">
-        <span class="tag">Java 23</span>
-        <span class="tag">Spring</span>
-        <span class="tag">Kafka</span>
-      </div>
-    </div>
-  </div>
+  <!--  <div class="body-container">-->
+  <!--    <div class="project-metadata">-->
+  <!--      <span class="project-category">backend</span>-->
+  <!--      <span class="project-title">Neo-Ledger</span>-->
+  <!--      <p class="project-description">NeoLedger est un système de gestion de transactions financières distribué.-->
+  <!--        Ce projet a pour but de mettre en pratique des concepts métiers et de simuler une banque.</p>-->
+  <!--      <div class="project-tags">-->
+  <!--        <span class="tag">Java 23</span>-->
+  <!--        <span class="tag">Spring</span>-->
+  <!--        <span class="tag">Kafka</span>-->
+  <!--      </div>-->
+  <!--    </div>-->
+  <!--    <div class="relative overflow-hidden picture">-->
+  <!--      <img-->
+  <!--        src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQ_MQlv6kK2EWiD48KlM33C4I0Ftt9Ix88s8Mxsl3rCkQYKZST0JcQDHOxeRF6uUQnGYKd9ui5F9rhOiFeBlJsJXvjv_SYCAwKenlhQs-eKnw03_Z1nBL1zfiA85mtJ8RrsrsNpXZoRvWFhtRBS25Jc9TcxMiDo1hqqAlu_i4akSGRQnSHz8hI5AISrDVQ11v_sLvGw7vZPqAuYXkJAgG1g7-m1yX8UeFzuVQ0VIkH4HGRADxYZLOFn0BdsgvodurDz3TwMYU0MfA"-->
+  <!--        alt="t"-->
+  <!--        class="w-142 h-80 object-cover "/>-->
+  <!--      <div class="absolute -bottom-8 -left-8 bg-[#faf9f6] text-(&#45;&#45;$red-color) p-8 uppercase w-50">-->
+  <!--        <span class="text-sm">status : en développement</span>-->
+  <!--        <span class="text-sm">année : 2026</span>-->
+  <!--      </div>-->
+  <!--    </div>-->
+  <!--    <div class="project-id">02</div>-->
 
-  <div class="body-container">
-    <div class="project-metadata">
-      <span class="project-category">backend</span>
-      <span class="project-title">Neo-Ledger</span>
-      <p class="project-description">NeoLedger est un système de gestion de transactions financières distribué.
-        Ce projet a pour but de mettre en pratique des concepts métiers et de simuler une banque.</p>
-      <div class="project-tags">
-        <span class="tag">Java 23</span>
-        <span class="tag">Spring</span>
-        <span class="tag">Kafka</span>
-      </div>
-    </div>
-    <div class="relative overflow-hidden picture">
-      <img
-        src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQ_MQlv6kK2EWiD48KlM33C4I0Ftt9Ix88s8Mxsl3rCkQYKZST0JcQDHOxeRF6uUQnGYKd9ui5F9rhOiFeBlJsJXvjv_SYCAwKenlhQs-eKnw03_Z1nBL1zfiA85mtJ8RrsrsNpXZoRvWFhtRBS25Jc9TcxMiDo1hqqAlu_i4akSGRQnSHz8hI5AISrDVQ11v_sLvGw7vZPqAuYXkJAgG1g7-m1yX8UeFzuVQ0VIkH4HGRADxYZLOFn0BdsgvodurDz3TwMYU0MfA"
-        alt="t"
-        class="w-142 h-80 object-cover "/>
-      <div class="absolute -bottom-8 -left-8 bg-[#faf9f6] text-(--$red-color) p-8 uppercase w-50">
-        <span class="text-sm">status : en développement</span>
-        <span class="text-sm">année : 2026</span>
-      </div>
-    </div>
-    <div class="project-id">02</div>
+  <!--  </div>-->
 
-  </div>
+  @for (project of projects; track project.id) {
+    <app-project [project]="project"></app-project>
+  }
 </div>
